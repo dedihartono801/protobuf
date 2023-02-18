@@ -1,3 +1,3 @@
-module gitlab.com/dedihartono801/protobuf
+module github.com/dedihartono801/protobuf
 
 go 1.18
