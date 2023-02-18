@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package order;
 
-option go_package = "gitlab.com/dedihartono801/protobuf/order/v1";
+option go_package = "github.com/dedihartono801/protobuf/order/v1";
 
 service OrderService {
     rpc CreateOrder(CreateOrderRequest) returns (CreateOrderResponse) {}

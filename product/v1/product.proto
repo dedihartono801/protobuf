@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package product;
 
-option go_package = "gitlab.com/dedihartono801/protobuf/product/v1";
+option go_package = "github.com/dedihartono801/protobuf/product/v1";
 
 service ProductService {
     rpc CreateProduct(CreateProductRequest) returns (CreateProductResponse) {}
