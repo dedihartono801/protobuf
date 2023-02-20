@@ -24,7 +24,7 @@
 #create folder "ssl" in each services (auth-svc,order-svc,product-svc,api-gateway) 
 #go to your ssl repo and generate ssl with command below:
 $ ./run.sh
-#and then ssl generated, copy all folders (auth-svc,order-svc,product-svc,api-gateway) in ssl repo to "ssl folder" that you have made before
+#and then ssl generated, copy all folders (auth-svc,order-svc,product-svc) in ssl repo to "ssl folder" that you have made before
 ```
 
 ## Running the app
